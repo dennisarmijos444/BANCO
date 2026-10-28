@@ -7,6 +7,5 @@ public interface InterfaceSavingAccounts {
     public boolean withdraw(SavingAccount savingaccount, float value);
     public boolean deposit(SavingAccount savingaccount, float value);
     public float montthlyStatement(SavingAccount savingaccount);
-    public String show();
-
+    public String show(SavingAccount savingaccount);
 }

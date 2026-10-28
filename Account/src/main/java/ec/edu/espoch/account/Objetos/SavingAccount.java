@@ -6,7 +6,7 @@ public class SavingAccount extends Account {
 
     public SavingAccount(boolean State, float balance, float annualinterest) {
         super(balance, annualinterest);
-        this.State = State;
+        this.State = balance >= 10000;
     }
 
 
@@ -16,7 +16,7 @@ public class SavingAccount extends Account {
     }
 
     public void setState(boolean State) {
-        this.State = State;
+        this.State = balance >= 10000;
     }
 
 
